@@ -1,0 +1,49 @@
+public class Loja {
+
+    int idProduro;
+    String nomeProduto;
+    String marcaProduto;
+    String corProduto;
+
+    public Loja() {
+    }
+
+    public Loja(int idProduro, String nomeProduto, String marcaProduto, String corProduto) {
+        this.idProduro = idProduro;
+        this.nomeProduto = nomeProduto;
+        this.marcaProduto = marcaProduto;
+        this.corProduto = corProduto;
+    }
+
+    public int getIdProduro() {
+        return idProduro;
+    }
+
+    public void setIdProduro(int idProduro) {
+        this.idProduro = idProduro;
+    }
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
+    }
+
+    public String getMarcaProduto() {
+        return marcaProduto;
+    }
+
+    public void setMarcaProduto(String marcaProduto) {
+        this.marcaProduto = marcaProduto;
+    }
+
+    public String getCorProduto() {
+        return corProduto;
+    }
+
+    public void setCorProduto(String corProduto) {
+        this.corProduto = corProduto;
+    }
+}
